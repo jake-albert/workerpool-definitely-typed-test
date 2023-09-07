@@ -1,0 +1,16 @@
+{
+  "name": "workerpool-definitely-typed-test",
+  "version": "1.0.0",
+  "description": "Test for workerpool types",
+  "main": "index.js",
+  "repository": "https://github.com/jake-albert/workerpool-definitely-typed-test.git",
+  "author": "jake-albert <jakealbert93@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "workerpool": "~6.4.2"
+  },
+  "devDependencies": {
+    "@types/workerpool": "~6.4.1"
+  }
+}
