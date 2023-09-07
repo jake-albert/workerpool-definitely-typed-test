@@ -7,10 +7,17 @@
   "author": "jake-albert <jakealbert93@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
   "dependencies": {
-    "workerpool": "~6.4.2"
+    "workerpool": "~6.4.2",
+    "yargs": "~17.7.2"
   },
   "devDependencies": {
-    "@types/workerpool": "~6.4.1"
+    "@types/workerpool": "~6.4.1",
+    "@types/yargs": "~17.0.24",
+    "ts-node": "~10.9.1",
+    "typescript": "~5.2.2"
   }
 }
